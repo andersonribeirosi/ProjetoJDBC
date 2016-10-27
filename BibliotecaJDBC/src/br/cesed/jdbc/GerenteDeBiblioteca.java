@@ -75,7 +75,7 @@ public class GerenteDeBiblioteca {
 
 	}
 	
-	// método para excluir no BD
+	// método para listar todos do BD
 	public List<Livros> buscarRegistros(Livros livro) {
 		String sql = "DELETE FROM livros WHERE idLivro = ?";
 		List<Livros> lista = new ArrayList<Livros>();
